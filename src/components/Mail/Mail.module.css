@@ -1,0 +1,35 @@
+.wrap {
+  background-color: #ffffff;
+  width: 800px;
+  height: 700px;
+  border-radius: 20px;
+
+  padding: 30px;
+
+  display: grid;
+  grid-template-rows: 1fr 2fr 5fr 1fr;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.control {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  color: #9d9d9d;
+  margin-bottom: 25px;
+}
+
+li {
+  cursor: pointer;
+}
+
+.bottomControl {
+  background-color: #f7f7f7;
+  margin: 0 -30px -30px;
+  border-radius: 0 0 20px 20px;
+  padding: 30px;
+  font-size: 30px;
+
+  display: flex;
+  justify-content: space-between;
+}

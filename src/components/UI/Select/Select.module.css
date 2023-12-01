@@ -1,0 +1,6 @@
+select {
+  border: none;
+  outline: none;
+  /* background-color: inherit; */
+  border-radius: 15px;
+}
